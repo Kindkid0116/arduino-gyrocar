@@ -10,8 +10,8 @@ int16_t ax, ay, az;
 int16_t gx, gy, gz;
 
 
-RF24 radio(7, 8); // SPI통신을 위한 (CE, CSN) 핀 선언
-const byte address[6] = "00001"; // 송신기와 수신기가 동일한 값으로 주소 설정함(5자리)
+RF24 radio(7, 8); 
+const byte address[6] = "00001"; 
 
 struct MyData {
   byte X;
